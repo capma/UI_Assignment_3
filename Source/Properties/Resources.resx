@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gauge_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_transition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_transition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_miter_bend_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_miter_bend_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strange_alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strange_alarm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tank_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ack_on_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ack_on_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_straight_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_straight_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_miter_bend_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_miter_bend_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_miter_bend_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_miter_bend_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valve_close_1b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valve_close_1b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_beveled_junction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_beveled_junction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_straight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_straight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alarm_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alarm_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valve_open_1b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valve_open_1b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_95.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alarm_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alarm_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_beveled_junction_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_beveled_junction_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck_miter_bend_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck_miter_bend_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gauge_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gauge_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

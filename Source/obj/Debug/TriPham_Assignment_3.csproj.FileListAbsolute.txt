@@ -1,0 +1,10 @@
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\bin\Debug\TriPham_Assignment_3.exe.config
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\bin\Debug\TriPham_Assignment_3.exe
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\bin\Debug\TriPham_Assignment_3.pdb
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.frmScada.resources
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.Properties.Resources.resources
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.csproj.GenerateResource.cache
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.csproj.CoreCompileInputs.cache
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.exe
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.pdb
+D:\WORKING\CONESTOGA\SEMESTER1\PROG8150 - User Interface Design Principles\Assignments\Assignment_3\TriPham_Assignment_3\Source\obj\Debug\TriPham_Assignment_3.csprojResolveAssemblyReference.cache
